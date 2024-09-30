@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+/* جميع classes */
+.good-lover {
+    color: gold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+
+
+}
+
+.book-a {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.book-a:hover,
+.about-con a:hover,
+.ggg {
+    background-color: gold;
+}
+
+.ggg {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+
+/* 2 */
+.con,
+.our,
+.menu,
+.photo6,
+.container {
+
+    max-width: 1100px;
+    margin: auto;
+}
+
+.about-con img {}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title h2 {
+    font-size: 40px;
+}
+
+.title p {
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 600;
+}
+
+.about-con {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-con img {
+    width: 450px
+}
+
+.about-con p {
+    color: #9a9a9a;
+    font-weight: 600px;
+    line-height: 1.6;
+    font-weight: 600;
+
+}
+
+
+.about-con a {
+    border: 2px solid thistle;
+}
+
+.our {
+    margin-top: 100px;
+
+}
+
+.b {
+    color: #eef600;
+}
+
+/*  start 4 */
+.menu2 {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.menu-right {}
+
+.menu-left {}
+
+.h3p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.img33 img {
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    justify-content: space-between;
+}
+
+.ppp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.yyy h3 {
+    color: #f9ff47;
+    font-size: 20px;
+    background-color: black;
+}
+
+.img4 b {
+    font-size: 30px;
+    color: #fff;
+}
+
+.img4 p {
+    color: #fff;
+}
+
+
+/*  end 4 */
+/* start 5 */
+#h4 {}
+
+.img4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 300px;
+    background: url("img/daytime_bg.jpeg") center center/ cover no-repeat;
+    height: 400px;
+}
+
+.xxx {
+    width: 100%;
+    height: 700px;
+
+
+}
+
+
+
+
+/* end 5 */
+/* header start */
+header {
+    height: 100vh;
+    background: url("img/home_bg.jpeg") center center/ cover no-repeat;
+    position: relative;
+}
+
+
+#navbar img {
+    width: 80px;
+    margin-left: 100px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+#navbar ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+#navbar ul a {
+    padding: 20px 15px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#navbar ul a:hover {
+    border-bottom: 2px solid orange;
+}
+
+#tow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 75%;
+
+}
+
+#tow h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+#tow p {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+
+
+header::before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    opacity: 0.5;
+    background-color: rgb(0, 0, 0);
+    content: "";
+
+}
+
+header * {
+    z-index: 10;
+}
+
+/* header end */
+
+
+/*   3 */
+#back-img {
+
+    background: url("img/offer-background.jpg") center center/ cover no-repeat;
+}
+
+#h1p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#h1p h2 {
+    color: gold;
+}
+
+#img3 {
+    justify-content: space-between;
+    display: flex;
+}
+
+#img3 p {
+    color: #fff;
+}
+
+#h1p p {
+    color: #fff;
+}
+
+/*  end 3 */
+/*   5 start  */
+#div-img4 {
+
+    height: 100px;
+    background-color: aqua;
+    margin-top: -100px;
+}
+
+#div-h4 {
+    height: 100px;
+
+
+}
+
+#h4 {
+
+    margin-top: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+.xxx h4 {
+    color: #881212;
+}
+
+#ggg {
+    color: rgb(77, 209, 149);
+    border: 3px solid blue;
+}
+
+
+/*   end 5 */
+/* start 6 */
+.back {
+    background: url("img/offer-background.jpg") center center/ cover no-repeat;
+}
+
+.h5b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #fff;
+    height: 200px;
+    margin-top: 180px;
+
+}
+
+.hhh3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.hhh3 img {
+    width: 300px;
+    height: 200px;
+}
+
+.bor {
+    border: 2px solid red;
+}
+
+/* end 6 */
+/* start 7 */
+h6 {
+    font-size: 30px;
+}
+
+.container {
+
+    display: flex;
+
+}
+
+#rrrr {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#yyy {
+    width: 500px;
+}
+
+.gmail1 {
+    width: 500px;
+}
+
+/* end 7 */
+
+
+/*  responsiveness */
+/*   mediun +tablet  */
+@media[ max-width: 1000px;
+
+] {
+    #navbar img {
+       
+        margin-left: 20px;
+    }
+}
